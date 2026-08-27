@@ -3,6 +3,7 @@ zenodo_upload/
 zenodo_packages/
 # analysis outputs (regenerable)
 global/analysis/output/
+local/analysis/output/
 __pycache__/
 *.pyc
 .DS_Store

@@ -14,6 +14,9 @@ Code for the local implementation-reasoning benchmark (RQ3/RQ4).
   explanation/consistency LLM-judge implementations.
 - `build_and_generate.py` — builds the four `CallGraph` objects from the
   call-graph CSVs (available in the Zenodo record under `call_graphs/`).
+- `rescore_struct.py` — Level-2 verification: re-scores all 2,288 frozen
+  predictions with the deterministic evaluator and compares against the
+  frozen score bundle (expected max |diff| ~ 5e-5, within tolerance 1e-3).
 
 ## Historical remediation drivers (reference only)
 

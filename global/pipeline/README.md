@@ -18,13 +18,15 @@ end-to-end requires two external services:
 
 > Provenance note: the community-report retrieval corpora are preserved in
 > the Zenodo data record (`community_reports/`: 2,562 LangChain + 8,585
-> OpenClaw + 1,666 Ollama full-content reports), and the subject source
-> trees are preserved as `subject_snapshots/` with content-hash anchors.
-> The RAGFlow dataset configurations themselves (chunking, embeddings,
-> chat-assistant settings) are not preserved, so the retrieval services
-> cannot be rebuilt bit-identically; the retrieved contexts are embedded
-> verbatim in the frozen per-item files under `data/results/`, which allows
-> re-deriving every metric without re-running retrieval.
+> OpenClaw + 1,666 Ollama full-content reports), the subject source trees
+> are preserved as `subject_snapshots/` with content-hash anchors, and the
+> RAGFlow dataset/chat-assistant configurations are exported under
+> `ragflow_config/` (re-export with `export_ragflow_config.py`). Rebuilding
+> the retrieval services bit-identically additionally requires the same
+> RAGFlow version (v0.25.0) and embedding model; independently of that, the
+> retrieved contexts are embedded verbatim in the frozen per-item files
+> under `data/results/`, which allows re-deriving every metric without
+> re-running retrieval.
 
 ## Scripts
 
@@ -36,6 +38,7 @@ end-to-end requires two external services:
 | `clean_rag_answer.py` | Shared answer cleaner (required import of the generators) |
 | `evaluate_all_metrics_su8_final.py` | Unified evaluator: Ans.R, Ans.C, RA-FC, Faithfulness, Context Recall |
 | `evaluate_all_metrics_su8_strict_embedding.py` | Strict-embedding evaluator variant used for Report-RAG on Ollama/LangChain |
+| `export_ragflow_config.py` | Exports dataset/chat-assistant configs from a live RAGFlow instance into `ragflow_config/` (the paper's configs are already exported there) |
 
 ## Example commands
 

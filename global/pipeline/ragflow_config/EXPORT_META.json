@@ -1,0 +1,8 @@
+{
+ "exported_at": "2026-08-27T14:21:34.643546+00:00",
+ "ragflow_base_url_host": "http://localhost:9380",
+ "ragflow_image": "infiniflow/ragflow:v0.25.0 (recorded at export time)",
+ "n_datasets": 14,
+ "n_chats": 25,
+ "note": "API keys and secrets are excluded. Rebuild requires the same RAGFlow version and the embedding model named in datasets.json."
+}

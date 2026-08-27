@@ -1,0 +1,11 @@
+{
+  "status": "complete_locked",
+  "gen_success": 92,
+  "gen_total": 92,
+  "judge_records": 92,
+  "gen_attempts_total": 92,
+  "gen_retries": 0,
+  "preflight_hash_match_all": 92,
+  "judge_calls": 184,
+  "note": "T3.8 rerun complete and locked. Do NOT rerun or resume."
+}

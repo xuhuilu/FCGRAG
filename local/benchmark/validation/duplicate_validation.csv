@@ -1,0 +1,18 @@
+check,detail,result
+no_shared_question_root_gold,0 collisions,PASS
+survivor_in_candidate,clean_v1_0004 -> clean_v1_0005,PASS
+survivor_in_candidate,clean_v1_0017 -> clean_v1_0021,PASS
+survivor_in_candidate,clean_v1_0019 -> clean_v1_0014,PASS
+survivor_in_candidate,clean_v1_0024 -> clean_v1_0025,PASS
+survivor_in_candidate,clean_v1_0027 -> clean_v1_0049,PASS
+survivor_in_candidate,clean_v1_0032 -> clean_v1_0068,PASS
+survivor_in_candidate,clean_v1_0036 -> clean_v1_0055,PASS
+survivor_in_candidate,clean_v1_0041 -> clean_v1_0076,PASS
+survivor_in_candidate,clean_v1_0043 -> clean_v1_0078,PASS
+survivor_in_candidate,clean_v1_0058 -> clean_v1_0112,PASS
+survivor_in_candidate,langchain_python_error_v21_0008 -> langchain_python_error_v21_0024,PASS
+survivor_in_candidate,langchain_python_error_v21_0023 -> langchain_python_error_v21_0022,PASS
+survivor_in_candidate,ollama_go_0011 -> ollama_go_0013,PASS
+survivor_in_candidate,ollama_go_0012 -> ollama_go_0014,PASS
+survivor_in_candidate,ollama_go_0015 -> ollama_go_0013,PASS
+survivor_in_candidate,ollama_go_0016 -> ollama_go_0014,PASS

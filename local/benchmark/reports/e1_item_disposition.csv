@@ -1,0 +1,5 @@
+item_id,e1_disposition,note
+clean_v1_0058,DROP,true-duplicate non-survivor under qualname-pinned rule; E1 repair discarded with item
+clean_v1_0112,RETAIN,qualname-pinned survivor; E1 repair retained
+clean_v1_0105,RERUN,C-DUP-SHARED question rewrite; E1 result superseded by v2 rerun
+__other_31_e1_items__,RETAIN,20 never-flagged + 11 keep/relabel/rebuild-gold/expand (incl. former NEEDS_AUTHOR item resolved to REBUILD_GOLD re-eval)

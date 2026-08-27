@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "FCG-RAG Replication Package"
+message: "If you use this software or data, please cite the FCG-RAG paper and this repository."
+type: software
+authors:
+  - family-names: Lu
+    given-names: Xuhui
+identifiers:
+  - description: "Replication data record (subject snapshots, community reports, call graphs)"
+    type: doi
+    value: 10.5281/zenodo.22128120
+license: MIT

@@ -1,0 +1,18 @@
+item_id,action,reason
+clean_v1_0026,FIX_EXPLANATION,evidence_span declared function-relative; explanation re-quoted
+clean_v1_0028,FIX_EXPLANATION,evidence_span declared function-relative; explanation re-quoted
+langchain_python_error_v21_0016,FIX_EXPLANATION,external/stdlib entity status documented
+langchain_python_error_v21_0019,FIX_EXPLANATION,external/stdlib entity documented: numpy np.linalg.norm (chroma vectorstores.py:100-101); external numeric library
+ollama_cpp_0054,FIX_EXPLANATION,evidence_span declared function-relative; explanation re-quoted
+ollama_go_0006,FIX_EXPLANATION,evidence_span declared function-relative; explanation re-quoted
+ollama_go_0078,FIX_EXPLANATION,external/stdlib entity status documented
+ollama_go_0113,FIX_EXPLANATION,evidence_span declared function-relative; explanation re-quoted
+ollama_go_error_v21_0001,FIX_EXPLANATION,external/stdlib entity documented: fmt.Printf/Println are Go stdlib (external to extraction graph)
+ollama_go_error_v21_0003,FIX_EXPLANATION,external/stdlib entity documented: context.Context.Err() stdlib method (cloud_proxy.go:247 ctxErr)
+ollama_go_error_v21_0007,FIX_EXPLANATION,external/stdlib entity documented: context .Err() stdlib method; byte is a Go predeclared type
+ollama_go_error_v21_0008,FIX_EXPLANATION,external/stdlib entity documented: fmt.Println Go stdlib
+ollama_go_error_v21_0009,FIX_EXPLANATION,external/stdlib entity documented: fmt.Printf Go stdlib
+ollama_go_error_v21_0018,FIX_EXPLANATION,external/stdlib entity documented: fmt.Printf Go stdlib
+ollama_go_error_v21_0022,FIX_EXPLANATION,external/stdlib entity documented: fmt.Printf Go stdlib
+ollama_go_error_v21_0023,FIX_EXPLANATION,external/stdlib entity documented: fmt.Println Go stdlib
+openclaw_ts_js_0003,FIX_EXPLANATION,evidence_span declared function-relative; explanation re-quoted

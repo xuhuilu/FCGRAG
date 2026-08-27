@@ -1,0 +1,8 @@
+{
+  "reused_prediction_records": 2140,
+  "struct_unified_v2_recompute": 2140,
+  "judge_reused_v1": 1900,
+  "judge_pending_rejudge": 240,
+  "rejudge_worklist_records": 240,
+  "planned_rejudge_api_calls": 480
+}

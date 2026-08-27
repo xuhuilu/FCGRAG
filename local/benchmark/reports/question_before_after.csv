@@ -1,0 +1,24 @@
+item_id,action,old_question_hash,new_question_hash,reason
+clean_v1_0037,REWRITE_QUESTION,5cea66c938a2c17f,3e6e8e1f5fe9ed92,FQ root libs.partners.ollama.langchain_ollama.chat_models.ChatOllama.with_structured_output in question
+clean_v1_0105,REWRITE_QUESTION,69e63a779e17a9f4,ce91c3eba56ee024,FQ root libs.partners.fireworks.langchain_fireworks.chat_models.ChatFireworks.with_structured_output in question
+clean_v1_0107,REWRITE_QUESTION,5cea66c938a2c17f,6039a5640fbbb2c9,FQ root libs.partners.fireworks.langchain_fireworks.chat_models.ChatFireworks.with_structured_output in question
+clean_v1_0122,REWRITE_QUESTION,69e63a779e17a9f4,20fbb00c3261b88f,FQ root libs.partners.groq.langchain_groq.chat_models.ChatGroq.with_structured_output in question
+clean_v1_0124,REWRITE_QUESTION,5cea66c938a2c17f,e2e73ac577cebe5a,FQ root libs.partners.groq.langchain_groq.chat_models.ChatGroq.with_structured_output in question
+langchain_python_impact_v21_0007,REWRITE_QUESTION,85d6cc4add5aa3f0,29e0b4c6e9514db9,FQ root libs.core.langchain_core.tracers.base.AsyncBaseTracer._end_trace in question
+langchain_python_impact_v21_0014,REWRITE_QUESTION,85d6cc4add5aa3f0,bd6e652393e2ea5c,FQ root libs.core.langchain_core.tracers.base.BaseTracer._end_trace in question
+langchain_python_error_v21_0022,REBUILD_GOLD,9f51420c2f6083de,0ba4670c55089559,FIX_GOLD with question-embedded trigger repair (rerun)
+ollama_cpp_0088,REBUILD_ITEM,3b1710cfc1aba2c1,e5d7ffed9d8ed1a8,"condition splice removed; re-scoped to tile loop body (new branch_kind loop_body, documented)"
+ollama_go_0002,REBUILD_ITEM,2312b8c82f3fe92a,916673a0b9e37ddc,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0010,REBUILD_ITEM,3870a82dbd4da2b3,0ba9c188316da505,"rebuilt per true Go semantics with the real composite literals (api.ProgressResponse, downloadOpts)"
+ollama_go_0023,REBUILD_ITEM,05d73e87e52722d1,aac1eef52d278ded,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0029,REBUILD_ITEM,01a6f8d07e1163f7,c0a1e06c9d67f53c,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0037,REBUILD_ITEM,5f8e700c8a535b21,f18264702bb8c795,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0063,REBUILD_ITEM,eabfd0dee4b08789,803c99cb3b7878cf,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0066,REBUILD_ITEM,4f7b7cda3fa7f505,adbe0f333538bdf0,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0077,REBUILD_ITEM,c99ff9af194f85fc,4ba89b63bf6f432a,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0086,REBUILD_ITEM,1f94889b101bccb4,b7dfd45f216483fe,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0091,REBUILD_ITEM,ad495803763e224d,0b965bc310b53801,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0095,REBUILD_ITEM,9157e043975ad8da,037711638b5fe67b,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0110,REBUILD_ITEM,a121cf7bea6b4081,f777abef678674e5,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0112,REBUILD_ITEM,eabfd0dee4b08789,803c99cb3b7878cf,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+openclaw_ts_js_0090,REBUILD_ITEM,fdec61ca9b4a7be5,03f1c032028e4700,retry-branch guard restored; root de-mangled; pseudo node removed

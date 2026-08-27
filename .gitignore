@@ -1,0 +1,8 @@
+# large derived artifacts staged for the Zenodo data record
+zenodo_upload/
+zenodo_packages/
+# analysis outputs (regenerable)
+global/analysis/output/
+__pycache__/
+*.pyc
+.DS_Store

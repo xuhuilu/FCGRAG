@@ -1,0 +1,33 @@
+item_id,action,old_label,new_label,reason
+clean_v1_0044,REBUILD_GOLD,event.type == 'content_block_start' and event.content_block is not None and ('tool_result' in event.content_block.type or 'tool_use' in event.content_block.type or 'document' in event.content_block.type or ('redacted_thinking' in event.content_block.type)),"event.type == ""content_block_start"" and event.content_block is not None and (""tool_result"" in event.content_block.type or ""tool_use"" in event.content_block.type or ""document"" in event.content_block.type or ""redacted_thinking"" in event.content_block.type)",condition label repaired to source-verbatim guard (langchain_anthropic/chat_models.py:1959-1968); question text unchanged
+clean_v1_0097,REBUILD_GOLD,"(schema := payload.pop('response_format', None))","schema := payload.pop(""response_format"", None)",condition label repaired to source-verbatim guard (langchain_openai/chat_models/base.py:3817); question text unchanged
+clean_v1_0125,REBUILD_GOLD,(raw_tool_calls := _dict.get('tool_calls')),"raw_tool_calls := _dict.get(""tool_calls"")",condition label repaired to source-verbatim guard (langchain_openai/chat_models/base.py:382); question text unchanged
+ollama_cpp_0026,REBUILD_GOLD,op->op == GGML_OP_MUL_MAT && op->src[0]->buffer && (ggml_n_dims(op->src[0]) == 2) && op->src[0]->buffer->buft == ggml_backend_cpu_repack_buffer_type() && ggml_repack_get_optimal_repack_type(op->src[0]),op->op == GGML_OP_MUL_MAT && op->src[0]->buffer && (ggml_n_dims(op->src[0]) == 2) && op->src[0]->buffer->buft == ggml_backend_cpu_repack_buffer_type() && ggml_repack_get_optimal_repack_type(op->src[0]),condition label verified against frozen source (whitespace-normalized identical; normalization-only confirmation)
+ollama_go_0005,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0007,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0014,FIX_LABEL,class_instantiation,helper_function,"dedup survivor (group 81bd0507) with audited MINOR label_only_error; relabeled like C-CLASS-GO-MINOR (score-neutral, documented deviation)"
+ollama_go_0019,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0021,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0026,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0032,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0035,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0040,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0042,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0046,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0048,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0050,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0053,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0056,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0059,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0069,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0072,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0074,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0079,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0083,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0096,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0099,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0102,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0104,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0106,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0108,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0115,FIX_LABEL,class_instantiation,helper_function,target_kind class_instantiation -> helper_function (score-neutral)

@@ -1,0 +1,101 @@
+{
+  "files": {
+    "code_rag/langchain": {
+      "file": "code_rag/langchain_all_metrics.json.gz",
+      "sha256_gz": "f6a5f20a8fdf4b492d7aaa2b05c1fb93960fa2705e44cb0e525aab16862c0a6a",
+      "method": "code_rag",
+      "system": "langchain"
+    },
+    "code_rag/ollama": {
+      "file": "code_rag/ollama_all_metrics.json.gz",
+      "sha256_gz": "909ca2ca0d072979fb749ea28b78ae4e2b48a470c55e02a8dbc5cd9719685b76",
+      "method": "code_rag",
+      "system": "ollama"
+    },
+    "code_rag/openclaw": {
+      "file": "code_rag/openclaw_all_metrics.json.gz",
+      "sha256_gz": "699315c59459bd468c8ae0b8e7e664642f9342827ed167cbe59afc911a3c1b7c",
+      "method": "code_rag",
+      "system": "openclaw"
+    },
+    "direct/langchain": {
+      "file": "direct/langchain_all_metrics.json.gz",
+      "sha256_gz": "9ab6759f925313cc7950a9abf3c29722b123334135ecf2c3962f62dbd07003f9",
+      "method": "direct",
+      "system": "langchain"
+    },
+    "direct/ollama": {
+      "file": "direct/ollama_all_metrics.json.gz",
+      "sha256_gz": "73cc6c9cecf677754e2e8bc45b4d9750ca4928972f5f2911b8a6a32bfb6bb7f4",
+      "method": "direct",
+      "system": "ollama"
+    },
+    "direct/openclaw": {
+      "file": "direct/openclaw_all_metrics.json.gz",
+      "sha256_gz": "cb793646e2c9a2b4ccb90aac0abe8c264047dbc24652c2b10c4fd5f9e3001549",
+      "method": "direct",
+      "system": "openclaw"
+    },
+    "fcg_rag/langchain": {
+      "file": "fcg_rag/langchain_all_metrics.json.gz",
+      "sha256_gz": "d3d500b19f95190c61571fb0b601f45b05c46427597ca32f5e09d1703d3285dd",
+      "method": "fcg_rag",
+      "system": "langchain"
+    },
+    "fcg_rag/ollama": {
+      "file": "fcg_rag/ollama_all_metrics.json.gz",
+      "sha256_gz": "8bd55b8205c64c746725068b0fc26eb7939a9d77bfb5d7dad3c40819de2c25f7",
+      "method": "fcg_rag",
+      "system": "ollama"
+    },
+    "fcg_rag/openclaw": {
+      "file": "fcg_rag/openclaw_all_metrics.json.gz",
+      "sha256_gz": "2437a263a63293013d5f8f60c6dc8048b8dfa24e0ddde55391fc1a83a45b4033",
+      "method": "fcg_rag",
+      "system": "openclaw"
+    },
+    "int_rag/langchain": {
+      "file": "int_rag/langchain_all_metrics.json.gz",
+      "sha256_gz": "0ac84a0eb41f5f6a25a9e6db0e5f02203f6b88e5a6c23a51443e906fc992019c",
+      "method": "int_rag",
+      "system": "langchain"
+    },
+    "int_rag/ollama": {
+      "file": "int_rag/ollama_all_metrics.json.gz",
+      "sha256_gz": "556acd1e296353d20dca95b57c5dc24fbf5f0385814dbe539f4cf70e30aa15c1",
+      "method": "int_rag",
+      "system": "ollama"
+    },
+    "int_rag/openclaw": {
+      "file": "int_rag/openclaw_all_metrics.json.gz",
+      "sha256_gz": "834018d9d1e0c57f33f447e8d826aedca307fd4a847d5eaf2b1a98d7a156b3a8",
+      "method": "int_rag",
+      "system": "openclaw"
+    },
+    "report_rag/langchain": {
+      "file": "report_rag/langchain_all_metrics.json.gz",
+      "sha256_gz": "79353e24eed204914fa90ee4515c79e80161dafeb2b07b46d32b114d4d5d6774",
+      "method": "report_rag",
+      "system": "langchain"
+    },
+    "report_rag/ollama": {
+      "file": "report_rag/ollama_all_metrics.json.gz",
+      "sha256_gz": "bc6dab171524a87467b921995e5cc9412b5b2bb649ce38fae3ded75d39c48a1e",
+      "method": "report_rag",
+      "system": "ollama"
+    },
+    "report_rag/openclaw": {
+      "file": "report_rag/openclaw_all_metrics.json.gz",
+      "sha256_gz": "39bfb0aa827a05787bc5a382133e377020be1a5867eb54f9d8e842255e3f8b69",
+      "method": "report_rag",
+      "system": "openclaw"
+    }
+  },
+  "manifest_note": "Paper-bound per-item results for the global functionality-understanding benchmark (RQ1/RQ2). 574 items x 4 methods + 3 closed-book direct controls. Items have no stable IDs; bindings across methods are positional (identical question order).",
+  "provenance": "Bound by T4_FREEZE_MANIFEST_CANDIDATE.json (prediction_result_binding_gpt55_block), with one correction: int_rag/openclaw binds to the _REEVAL artifact, whose aggregates reproduce the published table; the pre-REEVAL artifact pinned in the T4 manifest does not.",
+  "known_provenance_limitations": [
+    "FCG-RAG ollama/openclaw bound to corrected_reports REEVAL re-evaluation; correction provenance undocumented",
+    "Report-RAG ollama/langchain evaluated with the strict-embedding evaluator variant",
+    "generator: gpt-5.5 via su8 gateway; evaluator: gpt-5.5; fact decomposition: gpt-5.5"
+  ]
+}

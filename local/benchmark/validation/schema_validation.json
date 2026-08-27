@@ -1,0 +1,119 @@
+{
+  "candidate": "fcg_benchmark/experiments/multilingual_en/benchmarks_with_explanations_v22_t3_remediated/all_multilingual_v22_t3_remediated_en_with_explanations.jsonl",
+  "candidate_sha256": "cd321211ae5ede2e8d150fbedd41bb5dfeb7617e5ea77f172b9d7bf205478b60",
+  "item_count": 572,
+  "checks": [
+    {
+      "name": "01_jsonl_parses",
+      "pass": true,
+      "detail": "572 items"
+    },
+    {
+      "name": "02_item_id_unique",
+      "pass": true,
+      "detail": "572 items"
+    },
+    {
+      "name": "03_question_nonempty",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "04_root_locatable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "05_gold_schema",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "07_explanation_gold_consistent",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "08_source_paths_exist",
+      "pass": true,
+      "detail": "0 shorthand citations (checked at build; see action report)"
+    },
+    {
+      "name": "09_evidence_spans_legal",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "10_no_template_pool",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "11_go_taxonomy",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "12_impact_norm_roundtrip",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "13_no_8_12_truncation",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "14_no_destructor_clique",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "15_no_true_duplicates",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "16_survivor_mapping_complete",
+      "pass": true,
+      "detail": "16 mappings"
+    },
+    {
+      "name": "17_disposition_covers_632",
+      "pass": true,
+      "detail": "632 dispositions"
+    },
+    {
+      "name": "18_composition_consistent",
+      "pass": true,
+      "detail": {
+        "dataset:langchain_python": 147,
+        "dataset:ollama_cpp": 123,
+        "dataset:ollama_go": 155,
+        "dataset:openclaw_ts_js": 147,
+        "qtype:conditional_path": 143,
+        "qtype:dependency_trace": 85,
+        "qtype:error_handling_path": 98,
+        "qtype:execution_flow": 173,
+        "qtype:impact_scope": 73
+      }
+    },
+    {
+      "name": "19_v1_sha_unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "20_no_network_or_model_calls",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "all_passed": true,
+  "floor_590": {
+    "floor": 590,
+    "candidate": 572,
+    "breached": true,
+    "author_override": "T3.6A 2026-07-30: floor rescinded, 572-item candidate accepted"
+  }
+}

@@ -1,0 +1,16 @@
+Data License: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+
+Applies to all data artifacts in this repository and the associated Zenodo
+data record: the global and local benchmarks, frozen per-item prediction and
+score bundles, community reports, and call graphs.
+
+You are free to share and adapt these data for any purpose, even
+commercially, provided you give appropriate credit (cite the FCG-RAG paper
+and this repository), provide a link to the license, and indicate if changes
+were made.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Note: the subject-system source snapshots staged for Zenodo
+(`zenodo_upload/subject_snapshots/`) are third-party MIT-licensed projects;
+their original LICENSE files apply and are retained inside each snapshot.

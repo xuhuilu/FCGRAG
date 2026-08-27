@@ -1,0 +1,10 @@
+{
+  "status": "complete_locked",
+  "records": 296,
+  "unique_item_method": 296,
+  "success": 296,
+  "failed": 0,
+  "checkpoint_sha256": "7a2dbf3267e044bb0f81146efcda9ff01cf0f41036c70fcbc4f2070f0d126675",
+  "judge_calls": 592,
+  "note": "T3.7 selective reevaluation complete and locked. Do NOT rerun or resume."
+}

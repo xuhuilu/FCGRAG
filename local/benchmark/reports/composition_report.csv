@@ -1,0 +1,10 @@
+dimension,value,v2_count
+dataset,langchain_python,147
+dataset,ollama_cpp,123
+dataset,ollama_go,155
+dataset,openclaw_ts_js,147
+qtype,conditional_path,143
+qtype,dependency_trace,85
+qtype,error_handling_path,98
+qtype,execution_flow,173
+qtype,impact_scope,73

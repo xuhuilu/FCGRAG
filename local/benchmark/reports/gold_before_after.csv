@@ -1,0 +1,98 @@
+item_id,action,old_gold_hash,new_gold_hash,reason
+clean_v1_0037,REWRITE_QUESTION,ad8e70fc4079bc24,85127abe98515361,FQ root libs.partners.ollama.langchain_ollama.chat_models.ChatOllama.with_structured_output in question
+clean_v1_0044,REBUILD_GOLD,87bf7ccf74ebed2c,f6bffa4a575ce2c5,condition label repaired to source-verbatim guard (langchain_anthropic/chat_models.py:1959-1968); question text unchanged
+clean_v1_0075,REBUILD_GOLD,3b206c196cc78b9b,e25c65522e88ba2b,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+clean_v1_0097,REBUILD_GOLD,382cf61992151d44,0ceaf5ed2b692b79,condition label repaired to source-verbatim guard (langchain_openai/chat_models/base.py:3817); question text unchanged
+clean_v1_0105,REWRITE_QUESTION,090fd4daa4eb6e9f,73cce698db36cbde,FQ root libs.partners.fireworks.langchain_fireworks.chat_models.ChatFireworks.with_structured_output in question
+clean_v1_0107,REWRITE_QUESTION,ad8e70fc4079bc24,4f5bbee96a5078cc,FQ root libs.partners.fireworks.langchain_fireworks.chat_models.ChatFireworks.with_structured_output in question
+clean_v1_0122,REWRITE_QUESTION,090fd4daa4eb6e9f,51738a3659c5c0d8,FQ root libs.partners.groq.langchain_groq.chat_models.ChatGroq.with_structured_output in question
+clean_v1_0124,REWRITE_QUESTION,ad8e70fc4079bc24,5ecfcdd0231f743c,FQ root libs.partners.groq.langchain_groq.chat_models.ChatGroq.with_structured_output in question
+clean_v1_0125,REBUILD_GOLD,a2b90f4d7553937e,d697dfedda25c89c,condition label repaired to source-verbatim guard (langchain_openai/chat_models/base.py:382); question text unchanged
+langchain_python_impact_v21_0005,REBUILD_GOLD,dc4fadc046179e3d,f9d7ab5ae3b50092,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+langchain_python_impact_v21_0007,REWRITE_QUESTION,721a0d9667d4aceb,f18de4518c8bda94,FQ root libs.core.langchain_core.tracers.base.AsyncBaseTracer._end_trace in question
+langchain_python_impact_v21_0009,REBUILD_GOLD,5b2a938feba0637c,6b7aa1a201563b3c,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+langchain_python_impact_v21_0010,REBUILD_GOLD,f9603af8749106ad,5447247f11de5230,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+langchain_python_impact_v21_0011,REBUILD_GOLD,3d562048c4995f5c,96ce11c526015e51,ambiguous same-named callers; no documented set change (flag only)
+langchain_python_impact_v21_0012,REBUILD_GOLD,12ef3a2c1102d6e9,b29ac952cf52a34f,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+langchain_python_impact_v21_0013,REBUILD_GOLD,696894da2d854a52,6d257b36a097af43,impacted-cap removed; missing same-depth/depth-2 callers re-added (impacted only)
+langchain_python_impact_v21_0014,REWRITE_QUESTION,721a0d9667d4aceb,69173a691306e3f7,FQ root libs.core.langchain_core.tracers.base.BaseTracer._end_trace in question
+langchain_python_impact_v21_0017,EXPAND_ACCEPTABLE,0d54d38fd7cb49bc,7a20af5715634859,"add 4 source-verified direct callers hidden inside list comprehensions (batch family, base.py:5722-5843)"
+langchain_python_impact_v21_0018,REBUILD_GOLD,fccd302ebf150b1b,fe1c599101182c9f,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+langchain_python_error_v21_0022,REBUILD_GOLD,6fb1a7af14db72df,3c4e94ac59b881d1,FIX_GOLD with question-embedded trigger repair (rerun)
+ollama_cpp_0088,REBUILD_ITEM,bcee41e17aa01dc6,3c862112b2f8f669,"condition splice removed; re-scoped to tile loop body (new branch_kind loop_body, documented)"
+ollama_cpp_impact_v21_0005,EXPAND_ACCEPTABLE,4c3a80d9338db8a4,f6d0c1e5ad9a5e97,add the 4 forward_mul_mat instantiations cut by the impacted=12 cap (8 RESOLVED same-depth edges)
+ollama_cpp_impact_v21_0006,REBUILD_GOLD,bd2484aaa7b05933,e559e8a5bdccfce1,normalization-only; ambiguous ggml_backend_cpu_repack_buffer_set_tensor flagged
+ollama_cpp_impact_v21_0008,REBUILD_GOLD,d95a6079a311ed8f,77ca1f3d9b676736,impacted-cap removed; missing same-depth/depth-2 callers re-added (impacted only)
+ollama_cpp_impact_v21_0009,REBUILD_GOLD,93a3f82fe26e5f6b,243c79ff2bcd57de,normalization-only; ambiguous specialization constructors flagged
+ollama_cpp_impact_v21_0010,REBUILD_GOLD,ac25fcdbded82804,09eafa16c6e8dd4e,base destructor: 8 specialization destructors are TRUE derived->base callers; keep
+ollama_go_0002,REBUILD_ITEM,0eba65097947e54d,dbe4f08477b99aa5,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0005,FIX_LABEL,1aa0e87cf6bf04a0,d1f008450ee16300,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0007,FIX_LABEL,05cce3717316ff34,905ec565b0b9b78f,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0010,REBUILD_ITEM,42f66e32c836fbb8,aa7cbfe286b0aef2,"rebuilt per true Go semantics with the real composite literals (api.ProgressResponse, downloadOpts)"
+ollama_go_0014,FIX_LABEL,81bd0507b82b2240,62fccbb2120ac78d,"dedup survivor (group 81bd0507) with audited MINOR label_only_error; relabeled like C-CLASS-GO-MINOR (score-neutral, documented deviation)"
+ollama_go_0019,FIX_LABEL,2a86e9f6881f5806,2cd3a563a9c0d33a,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0021,FIX_LABEL,fc7f1d7254a9283c,6b2d0a433006ffdb,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0023,REBUILD_ITEM,5cdd2c77e689bddc,ed0e9c2970306ce6,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0026,FIX_LABEL,87503ef8978f7da7,0cd08998e2b70331,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0029,REBUILD_ITEM,7d74e71bc294bf6a,6d07f2e10f9cc692,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0032,FIX_LABEL,7b551b2853d7e9de,e9cb1b08bff98be8,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0035,FIX_LABEL,0c50fd6007b0579d,27eeddfb04ed96bd,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0037,REBUILD_ITEM,8d4173f96bd16714,38262af4721cdd24,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0040,FIX_LABEL,116c70113204cffd,dcea1b67b119bbe6,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0042,FIX_LABEL,7a830db931d8c08f,e9454889ac71fceb,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0046,FIX_LABEL,7033e073e57ecc20,6c62d3a7dfb4d0cb,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0048,FIX_LABEL,99f69caf522e4e1a,9b47215d4980f434,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0050,FIX_LABEL,f6b4161dffa66b97,15be455572dd9df5,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0053,FIX_LABEL,2a2610ca953158cb,57d08f82bbbb4456,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0056,FIX_LABEL,a5baa3ac42059095,d09652a9ac7f1e7c,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0059,FIX_LABEL,e1f81c73c9a2b5e2,037572a90e1a7a38,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0063,REBUILD_ITEM,0959afd6abfb7e34,5b0e34e4ab850a11,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0066,REBUILD_ITEM,87a0ca7ac935e663,56bd9085ae66ec64,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0069,FIX_LABEL,4672b51864ee706c,3bd5d7d0d9df80d7,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0072,FIX_LABEL,6369a4999169c8cc,5512e8a3e61018f8,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0074,FIX_LABEL,18715f3df43fa7f0,da59a5b40091e68f,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0075,REBUILD_GOLD,892d95f2ddcb949e,844c388748c93e02,only CSV caller outside gold is the recursive self-edge (conventionally excluded); keep
+ollama_go_0077,REBUILD_ITEM,7de54acc2d53cf6c,9985a9ff607e1b00,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0079,FIX_LABEL,1c431be49f20dd56,452150f3a15b9272,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0083,FIX_LABEL,e03efe0f80b95763,75e71fb3763f3099,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0086,REBUILD_ITEM,014c8e1866c705e6,b1d009128568c1e6,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0091,REBUILD_ITEM,083f3feae85d8fe9,50289b99e0c0b31d,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0095,REBUILD_ITEM,045ca7b5d5268fb8,4ce7883222d459c8,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0096,FIX_LABEL,2dd5d61ebaba2a32,0d9ab04c1b0c2741,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0099,FIX_LABEL,adad7bde493a2694,2a8a4b22e5ea25b1,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0102,FIX_LABEL,5b65a911d17742a2,84e404372c6fc1f3,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0104,FIX_LABEL,c292e5d5a63ac637,2ceac93efc86bd3a,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0106,FIX_LABEL,9324c724525c39bc,fe97fe0d3427762a,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0108,FIX_LABEL,3a2df7cf0c69682e,4e2157624a3d1fc6,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_0110,REBUILD_ITEM,f4925ef8e1847b11,2b5ceb93aaee873d,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0112,REBUILD_ITEM,f86eab3d6d8c39c6,1f226fc0596e67f1,rescoped from class_instantiation to helper-function/method-call reachability; audit-verified genuine callees added to declared subgraph
+ollama_go_0115,FIX_LABEL,fbf69e5a94603994,03bd5fc221bbe494,target_kind class_instantiation -> helper_function (score-neutral)
+ollama_go_impact_v21_0003,REBUILD_GOLD,eed8e33d42cfe7e3,9c110260f2808940,unscorable anon-closure caller replaced by its enclosing nameable function
+ollama_go_impact_v21_0005,REBUILD_GOLD,d8b710996cd3faa7,7bf6c6784002e322,unscorable anon-closure caller replaced by its enclosing nameable function
+ollama_go_impact_v21_0006,REBUILD_GOLD,4f6cded1161aca97,dc5975459710bb22,unscorable anon-closure caller replaced by its enclosing nameable function
+ollama_go_impact_v21_0007,REBUILD_GOLD,ec6dcd0d59e892db,08d361b18f9b6223,unscorable anon-closure caller replaced by its enclosing nameable function
+ollama_go_impact_v21_0008,REBUILD_GOLD,f908758721a38b52,7c2cebe2ad8eb56a,impacted-cap removed; missing same-depth/depth-2 callers re-added (impacted only)
+openclaw_ts_js_0002,REBUILD_ITEM,0402716199bb3206,2ab375c0fe8f649c,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0005,REBUILD_ITEM,6065559420966642,1952e4ce00ac2a30,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0014,REBUILD_ITEM,fd0f9d556a30b952,a0be3063002c31a1,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0022,REBUILD_ITEM,eb95e9dbcd936c76,f9a58f6f866ca6b5,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0034,REBUILD_GOLD,21a18d7b0097ce2a,6bd3cb120a9954b7,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+openclaw_ts_js_0040,REBUILD_ITEM,dc9fc2ed436f12ff,19585f99bc3ff748,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0043,REBUILD_ITEM,ff7b40c3707baae8,5e17906a2ee3ec98,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0044,REBUILD_GOLD,a07f9e4ff769df53,01fc145ef184f7af,spurious extern-stub caller removed
+openclaw_ts_js_0048,REBUILD_ITEM,ae66019bb2a0b2df,4088e333fc443abf,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0050,REBUILD_ITEM,7c60222aa03f8ea3,d30f10e7e2a4d2d9,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0062,REBUILD_ITEM,b030cc63abcb23bc,026e25fb3403d574,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0077,REBUILD_ITEM,b5eaae5ed51fd713,0642dae133c1ebc8,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0084,REBUILD_ITEM,e7691c52113cf210,8da3fdeadc25fdd5,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0090,REBUILD_ITEM,a40120aec7f2f1c5,5944873a99a7e18c,retry-branch guard restored; root de-mangled; pseudo node removed
+openclaw_ts_js_0100,REBUILD_ITEM,ecf591b2715121d2,787f1775de3ef4d5,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0138,REBUILD_ITEM,854cfc65c2f8eda3,71937c602e0c4859,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_0141,REBUILD_ITEM,5d13eedafe5af3ec,074bdd1237d85f42,gold rebuilt from NEW_CALL (question/root unchanged)
+openclaw_ts_js_impact_v21_0014_assert,REBUILD_GOLD,f9f2208c2ac3af50,e712515e3bc45a5f,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+openclaw_ts_js_impact_v21_0015_connect,REBUILD_GOLD,dc22b0bf7e003c1d,b9dd9c25883ca473,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+openclaw_ts_js_impact_v21_0018_resolveBrowserConfig,REBUILD_GOLD,4901e9220c3be8ba,22dfc67793421d23,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+openclaw_ts_js_impact_v21_0019_resolveCommandSecretRefsViaGateway,REBUILD_GOLD,f275b90066514d39,b73c4fa12f0d397e,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+openclaw_ts_js_error_v21_0012,REBUILD_GOLD,0b6f27037e10e7ac,b4e19dbd73dd1003,drop unverifiable entities ['back']: 'back' not verifiable as a callable entity in state-migrations.ts (only 'rolled back'/'Rollback' prose)
+openclaw_ts_js_impact_v21_0014_captureEnv,REBUILD_GOLD,97df48802e4d4173,59706b3bc51e0e7e,truncation caps removed; missing source-verified callers re-added (direct+impacted)
+openclaw_ts_js_impact_v21_0018_getSession,REBUILD_GOLD,14be55a3c23084c4,13ed05421128e790,all 8 RESOLVED named non-test callers already in gold; 'ts:1150>' anon mangling flagged

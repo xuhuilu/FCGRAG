@@ -1,0 +1,128 @@
+{
+  "candidate_status": "benchmark-v2-candidate-accepted",
+  "flags": [
+    "not-yet-rerun",
+    "not-yet-reevaluated",
+    "not-final-scientific-freeze"
+  ],
+  "author_count_override": {
+    "original_floor": 590,
+    "accepted_candidate_count": 572,
+    "reason": "Validity and source recoverability prioritized over restoring nominal benchmark size.",
+    "resampling_authorized": false,
+    "minified_bundle_reextraction_authorized": false
+  },
+  "created_utc": "2026-07-30T03:41:32.544538+00:00",
+  "source_commit": "1ff68805cfc3a4b0b8147087f925ccb953edda46 (code-e1-repair-freeze-v1 baseline)",
+  "v1_benchmark": {
+    "path": "/home/lxh/fcg_benchmark (8)/fcg_benchmark/experiments/multilingual_en/benchmarks_with_explanations_v21_balanced_clean_plus_dedup/all_multilingual_v21_balanced_clean_en_with_explanations.jsonl",
+    "sha256": "df0a53b496c8608299a2da323201675447eab7a3c47e1540a1322c08936c9a94"
+  },
+  "v2_candidate": {
+    "file": "all_multilingual_v22_t3_remediated_en_with_explanations.jsonl",
+    "sha256": "cd321211ae5ede2e8d150fbedd41bb5dfeb7617e5ea77f172b9d7bf205478b60",
+    "item_count": 572
+  },
+  "inputs_sha256": {
+    "T3_FINAL_ACTION_MATRIX.csv": "0530d700a11114deffe770b9923b1a6149b3b69eb6b065a4a66c209644c5a461",
+    "T3_CLUSTER_DECISION_DRAFT.csv": "dfbe61c73f91515243807d335ebef9996801eb2b11dcdf3b2fb99b3ef0818b92",
+    "T3_HIGH_RISK_DECISION_DRAFT.csv": "b397f3120acdfc3a0858537d1a9d3f234ec9a3ffa3e2e6a22904fb0b73ff526a",
+    "T3_V2_IMPLEMENTATION_SPEC.md": "1eb53c2476c7829f8af2fc81abbd1872783e1380cd903c6e3cecee6527d56c97",
+    "T3_POLICY_CONFLICTS.csv": "46a876a4f469357ba87188884fb0097f1abd9e4a8141f1790014ee22a0ed0c99"
+  },
+  "item_counts": {
+    "v1": 632,
+    "candidate": 572,
+    "dropped_deduplicate": 16,
+    "dropped_exclude": 44,
+    "floor_590_breached": true,
+    "floor_590_breach_overridden_by_author": true
+  },
+  "composition": {
+    "dataset:langchain_python": 147,
+    "dataset:ollama_cpp": 123,
+    "dataset:ollama_go": 155,
+    "dataset:openclaw_ts_js": 147,
+    "qtype:conditional_path": 143,
+    "qtype:dependency_trace": 85,
+    "qtype:error_handling_path": 98,
+    "qtype:execution_flow": 173,
+    "qtype:impact_scope": 73
+  },
+  "action_counts": {
+    "KEEP_UNAUDITED_V1": 343,
+    "DEDUPLICATE": 16,
+    "KEEP": 114,
+    "FIX_EXPLANATION": 17,
+    "REWRITE_QUESTION": 7,
+    "REBUILD_GOLD": 32,
+    "EXPAND_ACCEPTABLE": 2,
+    "GATE_EXCLUDE": 31,
+    "REBUILD_ITEM": 29,
+    "FIX_LABEL": 28,
+    "EXCLUDE": 13
+  },
+  "prediction_dispositions": {
+    "REUSE_UNCHANGED": 457,
+    "DROP_DEDUPLICATE": 16,
+    "REUSE_REEVALUATE": 92,
+    "RERUN_ALL_4": 23,
+    "DROP_EXCLUDE": 44
+  },
+  "rerun_items": 23,
+  "rerun_runs_x4": 92,
+  "reevaluation_only_items": 92,
+  "gate_results": {
+    "G1_question_change_required": [
+      "ollama_cpp_impact_v21_0013",
+      "ollama_cpp_impact_v21_0014",
+      "ollama_cpp_impact_v21_0015",
+      "ollama_cpp_impact_v21_0016",
+      "ollama_cpp_impact_v21_0017",
+      "ollama_cpp_impact_v21_0018",
+      "ollama_cpp_impact_v21_0019"
+    ],
+    "G2_extraction_source_conflict": [
+      "ollama_cpp_0017"
+    ],
+    "G3_not_uniquely_recoverable": [
+      "openclaw_ts_js_0007",
+      "openclaw_ts_js_0011",
+      "openclaw_ts_js_0017",
+      "openclaw_ts_js_0020",
+      "openclaw_ts_js_0037",
+      "openclaw_ts_js_0053",
+      "openclaw_ts_js_0055",
+      "openclaw_ts_js_0058",
+      "openclaw_ts_js_0060",
+      "openclaw_ts_js_0065",
+      "openclaw_ts_js_0068",
+      "openclaw_ts_js_0071",
+      "openclaw_ts_js_0074",
+      "openclaw_ts_js_0107",
+      "openclaw_ts_js_0114",
+      "openclaw_ts_js_0123",
+      "openclaw_ts_js_0126",
+      "openclaw_ts_js_0130",
+      "openclaw_ts_js_0136",
+      "openclaw_ts_js_0144",
+      "openclaw_ts_js_0147",
+      "openclaw_ts_js_0151",
+      "openclaw_ts_js_0156"
+    ],
+    "G4_new_duplicates": "none detected (see validation/duplicate_validation.csv)",
+    "G5_composition_imbalance": "see reports/composition_report.csv"
+  },
+  "planned_vs_actual": {
+    "planned_candidate": 603,
+    "actual_candidate": 572,
+    "planned_rerun_items": 23,
+    "actual_rerun_items": 23,
+    "planned_reeval_items": 138,
+    "actual_reeval_items": 92,
+    "planned_drops": 29,
+    "actual_drops": 60,
+    "deviation": "23 JS-MAJOR items + 7 impact declique items gate-excluded under G1/G3 (see reports/implementation_gate_failures.csv)"
+  },
+  "not_final": true
+}

@@ -1,0 +1,41 @@
+{
+  "benchmark_sha256": "cd321211ae5ede2e8d150fbedd41bb5dfeb7617e5ea77f172b9d7bf205478b60",
+  "item_count": 572,
+  "total_records": 2288,
+  "binding_summary": {
+    "reused_v1_records": 2140,
+    "rerun_v2_records": 148,
+    "total": 2288,
+    "by_dataset": {
+      "langchain_python": 588,
+      "ollama_cpp": 492,
+      "ollama_go": 620,
+      "openclaw_ts_js": 588
+    },
+    "by_method": {
+      "direct": 572,
+      "code_only": 572,
+      "source_ast": 572,
+      "fcg_rag": 572
+    }
+  },
+  "v1_prediction_source_files": [
+    "langchain_python_pred_code_only_v2_en.jsonl",
+    "langchain_python_pred_direct_v2_en.jsonl",
+    "langchain_python_pred_fcg_rag_v2_en.jsonl",
+    "langchain_python_pred_source_ast_v2_en.jsonl",
+    "ollama_cpp_pred_code_only_v2_en.jsonl",
+    "ollama_cpp_pred_direct_v2_en.jsonl",
+    "ollama_cpp_pred_fcg_rag_v2_en.jsonl",
+    "ollama_cpp_pred_source_ast_v2_en.jsonl",
+    "ollama_go_pred_code_only_v2_en.jsonl",
+    "ollama_go_pred_direct_v2_en.jsonl",
+    "ollama_go_pred_fcg_rag_v2_en.jsonl",
+    "ollama_go_pred_source_ast_v2_en.jsonl",
+    "openclaw_ts_js_pred_code_only_v2_en.jsonl",
+    "openclaw_ts_js_pred_direct_v2_en.jsonl",
+    "openclaw_ts_js_pred_fcg_rag_v2_en.jsonl",
+    "openclaw_ts_js_pred_source_ast_v2_en.jsonl"
+  ],
+  "rerun_source": "checkpoints/rerun_gen_checkpoint.jsonl"
+}

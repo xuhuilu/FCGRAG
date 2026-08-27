@@ -1,0 +1,8 @@
+check,detail,result
+coverage_632,632 rows,PASS
+ids_match_v1,set equality,PASS
+disposition:DROP_DEDUPLICATE,16,INFO
+disposition:DROP_EXCLUDE,44,INFO
+disposition:RERUN_ALL_4,23,INFO
+disposition:REUSE_REEVALUATE,92,INFO
+disposition:REUSE_UNCHANGED,457,INFO

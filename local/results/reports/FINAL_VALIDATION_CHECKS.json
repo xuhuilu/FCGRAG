@@ -1,0 +1,111 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "15 benchmark candidate SHA unchanged",
+      "pass": true,
+      "detail": "cd321211ae5ede2e"
+    },
+    {
+      "check": "benchmark 572 items",
+      "pass": true,
+      "detail": 572
+    },
+    {
+      "check": "1 2288 predictions",
+      "pass": true,
+      "detail": 2288
+    },
+    {
+      "check": "2 2288 score records",
+      "pass": true,
+      "detail": 2288
+    },
+    {
+      "check": "each item exactly 4 methods (pred)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "each item exactly 4 methods (score)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "8 0 v1 dropped item in bundle",
+      "pass": true,
+      "detail": "leaked=set()"
+    },
+    {
+      "check": "7 0 placeholder/error predictions",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "6 0 NaN/Inf/out-of-range scores",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "check": "9 reused predictions have source hash",
+      "pass": true,
+      "detail": "2140 records"
+    },
+    {
+      "check": "10 rerun predictions have prompt/context hash",
+      "pass": true,
+      "detail": "148 records"
+    },
+    {
+      "check": "5 method names unified",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "5 qtype names unified",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "12 0 duplicate item x method / no retry duplicates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "score 0 duplicate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "3 aggregates reproducible from per-item scores",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "4 significance uses 572 items (overall scope)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "13 rounding consistent (<=4 dp)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "14 E1 retained/drop/rerun mapping correct",
+      "pass": true,
+      "detail": {
+        "REUSE_UNCHANGED": 457,
+        "DROP_DEDUPLICATE": 16,
+        "REUSE_REEVALUATE": 78,
+        "RERUN_ALL_4": 37,
+        "DROP_EXCLUDE": 44
+      }
+    },
+    {
+      "check": "11 API success counts match logs",
+      "pass": true,
+      "detail": "reeval=296 gen=148 judge=148"
+    }
+  ]
+}

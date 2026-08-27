@@ -1,0 +1,81 @@
+item_id,cluster,status,v1_direct,v1_impacted,v2_direct,v2_impacted,in_candidate
+clean_v1_0011,C-IMPACT-PASS,KEEP,2,6,2,6,True
+clean_v1_0020,C-IMPACT-PASS,KEEP,2,12,2,12,True
+clean_v1_0034,C-IMPACT-PASS,KEEP,3,5,3,5,True
+clean_v1_0075,C-IMPACT-TRUNC,REBUILD_GOLD,3,10,9,16,True
+clean_v1_0117,C-IMPACT-PASS,KEEP,2,4,2,4,True
+langchain_python_impact_v21_0005,C-IMPACT-TRUNC,REBUILD_GOLD,8,12,10,14,True
+langchain_python_impact_v21_0006,C-IMPACT-PASS,KEEP,8,9,8,9,True
+langchain_python_impact_v21_0007,C-DUP-SHARED,REWRITE_QUESTION,8,8,8,8,True
+langchain_python_impact_v21_0008,C-IMPACT-PASS,KEEP,8,8,8,8,True
+langchain_python_impact_v21_0009,C-IMPACT-TRUNC,REBUILD_GOLD,8,12,13,16,True
+langchain_python_impact_v21_0010,C-IMPACT-TRUNC,REBUILD_GOLD,8,8,11,11,True
+langchain_python_impact_v21_0011,C-IMPACT-AMBIG,REBUILD_GOLD,8,8,8,8,True
+langchain_python_impact_v21_0012,C-IMPACT-AMBIG,REBUILD_GOLD,8,8,9,9,True
+langchain_python_impact_v21_0013,C-IMPACT-TRUNC,REBUILD_GOLD,8,8,8,9,True
+langchain_python_impact_v21_0014,C-DUP-SHARED,REWRITE_QUESTION,8,8,8,8,True
+langchain_python_impact_v21_0015,C-IMPACT-PASS,KEEP,8,8,8,8,True
+langchain_python_impact_v21_0016,C-IMPACT-PASS,KEEP,8,8,8,8,True
+langchain_python_impact_v21_0017,C-IMPACT-TRUNC,EXPAND_ACCEPTABLE,8,8,12,12,True
+langchain_python_impact_v21_0018,C-IMPACT-TRUNC,REBUILD_GOLD,7,12,9,14,True
+langchain_python_impact_v21_0019,C-IMPACT-PASS,KEEP,7,8,7,8,True
+ollama_cpp_0002,C-IMPACT-PASS,KEEP,2,5,2,5,True
+ollama_cpp_0018,C-IMPACT-PASS,KEEP,2,5,2,5,True
+ollama_cpp_0029,C-IMPACT-PASS,KEEP,2,5,2,5,True
+ollama_cpp_0043,C-IMPACT-PASS,KEEP,2,4,2,4,True
+ollama_cpp_0047,C-IMPACT-PASS,KEEP,3,4,3,4,True
+ollama_cpp_impact_v21_0005,C-IMPACT-TRUNC,EXPAND_ACCEPTABLE,8,12,8,16,True
+ollama_cpp_impact_v21_0006,C-IMPACT-TRUNC,REBUILD_GOLD,8,9,8,9,True
+ollama_cpp_impact_v21_0007,C-IMPACT-PASS,KEEP,8,10,8,10,True
+ollama_cpp_impact_v21_0008,C-IMPACT-TRUNC,REBUILD_GOLD,8,12,8,16,True
+ollama_cpp_impact_v21_0009,C-IMPACT-AMBIG,REBUILD_GOLD,8,9,8,9,True
+ollama_cpp_impact_v21_0010,C-IMPACT-NORM,REBUILD_GOLD,8,8,8,8,True
+ollama_cpp_impact_v21_0011,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_cpp_impact_v21_0012,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_cpp_impact_v21_0013,C-IMPACT-AMBIG,EXCLUDED (declique gate),7,7,,,False
+ollama_cpp_impact_v21_0014,C-IMPACT-AMBIG,EXCLUDED (declique gate),7,7,,,False
+ollama_cpp_impact_v21_0015,C-IMPACT-AMBIG,EXCLUDED (declique gate),7,7,,,False
+ollama_cpp_impact_v21_0016,C-IMPACT-AMBIG,EXCLUDED (declique gate),7,7,,,False
+ollama_cpp_impact_v21_0017,C-IMPACT-AMBIG,EXCLUDED (declique gate),7,7,,,False
+ollama_cpp_impact_v21_0018,C-IMPACT-AMBIG,EXCLUDED (declique gate),7,7,,,False
+ollama_cpp_impact_v21_0019,C-IMPACT-AMBIG,EXCLUDED (declique gate),7,7,,,False
+ollama_go_0051,C-IMPACT-PASS,KEEP,5,9,5,9,True
+ollama_go_0075,C-IMPACT-AMBIG,REBUILD_GOLD,2,8,2,8,True
+ollama_go_impact_v21_0002,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_go_impact_v21_0003,C-IMPACT-NORM,REBUILD_GOLD,8,11,9,12,True
+ollama_go_impact_v21_0004,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_go_impact_v21_0005,C-IMPACT-NORM,REBUILD_GOLD,8,11,9,12,True
+ollama_go_impact_v21_0006,C-IMPACT-NORM,REBUILD_GOLD,8,8,12,12,True
+ollama_go_impact_v21_0007,C-IMPACT-NORM,REBUILD_GOLD,8,9,9,10,True
+ollama_go_impact_v21_0008,C-IMPACT-AMBIG,REBUILD_GOLD,8,12,8,14,True
+ollama_go_impact_v21_0009,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_go_impact_v21_0010,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_go_impact_v21_0011,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_go_impact_v21_0012,C-IMPACT-PASS,KEEP,8,10,8,10,True
+ollama_go_impact_v21_0013,C-IMPACT-PASS,KEEP,8,12,8,12,True
+ollama_go_impact_v21_0014,C-IMPACT-PASS,KEEP,7,12,7,12,True
+ollama_go_impact_v21_0015,C-IMPACT-PASS,KEEP,7,7,7,7,True
+ollama_go_impact_v21_0016,C-IMPACT-PASS,KEEP,7,9,7,9,True
+ollama_go_impact_v21_0017,C-IMPACT-PASS,KEEP,7,12,7,12,True
+ollama_go_impact_v21_0018,C-IMPACT-PASS,KEEP,7,12,7,12,True
+ollama_go_impact_v21_0019,C-IMPACT-PASS,KEEP,7,12,7,12,True
+openclaw_ts_js_0008,C-IMPACT-PASS,KEEP,9,12,9,12,True
+openclaw_ts_js_0015,C-IMPACT-PASS,KEEP,10,12,10,12,True
+openclaw_ts_js_0034,C-IMPACT-TRUNC,REBUILD_GOLD,2,4,3,5,True
+openclaw_ts_js_0038,C-IMPACT-PASS,KEEP,2,4,2,4,True
+openclaw_ts_js_0044,C-IMPACT-NORM,REBUILD_GOLD,4,12,3,11,True
+openclaw_ts_js_0127,C-IMPACT-PASS,KEEP,2,5,2,5,True
+openclaw_ts_js_0139,C-IMPACT-PASS,KEEP,3,11,3,11,True
+openclaw_ts_js_impact_v21_0014_assert,C-IMPACT-TRUNC,REBUILD_GOLD,8,12,9,13,True
+openclaw_ts_js_impact_v21_0015_connect,C-IMPACT-TRUNC,REBUILD_GOLD,8,8,12,12,True
+openclaw_ts_js_impact_v21_0016_createSession,C-IMPACT-PASS,KEEP,8,12,8,12,True
+openclaw_ts_js_impact_v21_0017_ensureAgentWorkspace,C-IMPACT-PASS,KEEP,8,12,8,12,True
+openclaw_ts_js_impact_v21_0018_resolveBrowserConfig,C-IMPACT-TRUNC,REBUILD_GOLD,8,11,9,12,True
+openclaw_ts_js_impact_v21_0019_resolveCommandSecretRefsViaGateway,C-IMPACT-TRUNC,REBUILD_GOLD,8,8,12,12,True
+openclaw_ts_js_impact_v21_0013,C-IMPACT-PASS,KEEP,8,12,8,12,True
+openclaw_ts_js_impact_v21_0014_captureEnv,C-IMPACT-TRUNC,REBUILD_GOLD,8,12,10,14,True
+openclaw_ts_js_impact_v21_0015_createRunningTaskRun,C-IMPACT-PASS,KEEP,8,12,8,12,True
+openclaw_ts_js_impact_v21_0016_createSubsystemLogger,C-IMPACT-PASS,KEEP,8,12,8,12,True
+openclaw_ts_js_impact_v21_0017_fetchWithTimeout,C-IMPACT-PASS,KEEP,8,12,8,12,True
+openclaw_ts_js_impact_v21_0018_getSession,C-IMPACT-NORM,REBUILD_GOLD,8,12,8,12,True
+openclaw_ts_js_impact_v21_0019_hasNonzeroUsage,C-IMPACT-PASS,KEEP,8,12,8,12,True

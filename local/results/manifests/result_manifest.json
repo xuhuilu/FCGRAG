@@ -1,0 +1,29 @@
+{
+  "all_checks_pass": true,
+  "record_counts": {
+    "predictions": 2288,
+    "scores": 2288,
+    "items": 572
+  },
+  "model": "gpt-5.5 via SU8 (https://www.su8.codes/v1)",
+  "evaluator": "frozen v2 evaluator (unified normalization)",
+  "aggregation": "means over 572 items; Qual=(Struct+Expl)/2",
+  "significance": "exact two-sided sign test + paired bootstrap 95% CI (4000 resamples)",
+  "output_files_sha256": {
+    "predictions/predictions_v22_all_methods.jsonl": "8d8f9ee21f5dc2e6ef414de13c7e099386d1b455b12514c42058f8c3d52e45cf",
+    "scores/scores_v22_all_methods.jsonl": "0050a6f30ae0bb6cd4a3eafbb8b664a740ee1107db74034362ae912f407db9a5",
+    "aggregates/aggregate_overall_v22.csv": "5e37c6d9503d8dcb3157e2f4c5d057ae3cb60c1bb91235574c6ad712a57d21eb",
+    "aggregates/aggregate_by_dataset_v22.csv": "c926981e5bd35b070abd3c36ab854b0679983742c127298f04369ec830625306",
+    "aggregates/aggregate_by_method_v22.csv": "5e37c6d9503d8dcb3157e2f4c5d057ae3cb60c1bb91235574c6ad712a57d21eb",
+    "aggregates/aggregate_by_qtype_v22.csv": "0196095d8769872ac8975280c2e4cfb74d97858da2628583d2ee1dec2f885ec4",
+    "significance/pairwise_significance_v22.csv": "017faa2a5d9da0a8ca235c1505155c23c0751882ef0bc6ac6f156a87b886a85a",
+    "significance/paper_inference_v22.json": "93fbd1979ec6eb4fa92fc9a40d2d66c319d8cefdd990d39a3779edb4679b0fac",
+    "significance/confidence_intervals_v22.csv": "f9a9a15ede29414dc58512c7bb59f95b9cb03431dac92f751a1e76ea074b3d11",
+    "manifests/reevaluate_final_manifest.json": "41845d9c14292c7c07ecfb7e924c98c4d0ceb7a52cf5741ecb08ccf8592b28c3",
+    "manifests/prediction_binding_manifest.json": "2c146ee6427528791f1618e3b62d4e9f3687db9f3caa75ccb8e76b4d1d7916dd",
+    "manifests/result_manifest.json": "d048600a1bcac8c0e5d8aeef7fda0e716f6be2ac7458a08b8fe5141967d1f241",
+    "manifests/rebind_summary.json": "aab3f2b31f5979a595a2f71c89cf8b1a0f21f28b69a5f8761900ddbada527ef6",
+    "manifests/rerun_final_manifest.json": "f14d5c98656ca25db4179b2fc099f8e6e850007174b9f6a1a5b519c1b34debc7",
+    "manifests/rejudge_worklist.jsonl": "bd317c7155249344606aba9a23b9e73cfed421b888e22623692589d071c3aa8d"
+  }
+}

@@ -1,5 +1,8 @@
 # FCG-RAG Replication Package
 
+*Official repository for FCG-RAG, a structure-aware RAG framework for
+fine-grained software comprehension from source code.*
+
 This package reproduces the results of the FCG-RAG paper:
 
 - **Global functionality understanding (RQ1/RQ2)** — 574 open-ended QA items
